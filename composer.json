@@ -1,0 +1,36 @@
+{
+  "name" : "inneair/search",
+  "type" : "project",
+  "description" : "Search",
+  "keywords" : [
+    "inneair",
+    "search"
+  ],
+  "license" : "proprietary",
+  "authors" : [{
+    "name" : "Innéair",
+    "homepage" : "http://www.inneair.com/"
+  }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Inneair\\Search\\" : "src/"
+    }
+  },
+  "require" : {
+    "php" : "~5.3"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "~4.2",
+    "phpdocumentor/phpdocumentor" : "~2.0,!=2.8.2"
+  },
+  "minimum-stability" : "stable",
+  "config" : {
+    "bin-dir" : "bin"
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.x-dev"
+    }
+  }
+}
